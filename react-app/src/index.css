@@ -1,0 +1,63 @@
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h2 {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+p {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.selected {
+  background-color: rgba(175, 217, 149, 0.755);
+}
+.form {
+  display: inline-block;
+}
+.hidden {
+  display: none;
+}
+
+.main {
+  border: 1px solid #ccc;
+  padding: 50px;
+  border-radius: 10px;
+
+  /* make it a styled card with a text shadow */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 0 #fff;
+  
+
+}
+
+
